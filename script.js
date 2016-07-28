@@ -19,7 +19,6 @@ var nv = new Region('NV', 25000, 1);
 // push object instances to locations array
 
 locations.push(il, mn, nv);
-console.log(locations);
 
 // DO NOT MODIFY THIS CODE
 $(document).ready(function () {
