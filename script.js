@@ -1,10 +1,11 @@
 var locations = []; // this array will hold your objects
 
 // object constructor
+
 function Region(state, revenue, locationCount) {
-  this.stateName = state;
-  this.stateRevenue = revenue;
-  this.numLocations = locationCount;
+  this.state = state;
+  this.revenue = revenue;
+  this.locationCount = locationCount;
   this.averageRevenue = function (){
     var avgRev = revenue / locationCount;
     return avgRev;
@@ -18,6 +19,7 @@ var nv = new Region('NV', 25000, 1);
 // push object instances to locations array
 
 locations.push(il, mn, nv);
+console.log(locations);
 
 // DO NOT MODIFY THIS CODE
 $(document).ready(function () {
